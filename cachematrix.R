@@ -38,3 +38,10 @@ cacheSolve <- function(x, ...) {
         x$setinverse(inv)
         inv
 }
+
+
+
+##output
+##mx = makeCacheMatrix(rbind(c(1, 2), c(2, 1)))
+##mx$get()
+##cacheSolve(mx)
